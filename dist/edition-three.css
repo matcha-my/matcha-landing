@@ -182,3 +182,30 @@
 .edition-three .new-row-heading .catalog-category{font-size:12px;color:#ce568d;background:none;border:0;box-shadow:none;padding:0;transform:none;line-height:1;letter-spacing:1px}
 .edition-three .new-row-heading .row-number,.edition-three .new-row-heading .catalog-arrows{display:none}
 @media(max-width:680px){.edition-three .catalog-row-v3 .new-row-heading{padding:7px 18px;min-height:34px;margin-bottom:10px}.edition-three .new-row-heading h3{font-size:13px}.edition-three .new-row-heading>div:first-child{gap:9px}.edition-three .new-row-heading .hot-heading-mark b{font-size:18px}.edition-three .new-row-heading .hot-heading-mark svg{width:14px;height:17px}.edition-three .new-row-heading .catalog-category{font-size:10px}.edition-three .private-v3 h2{font-size:clamp(27px,7.8vw,34px)}}
+/* Raster campaign artwork with centered live headings. */
+.edition-three .catalog-row-v3 .new-row-heading{justify-content:center;padding:8px 18px;background-color:#fff0f7;background-size:cover;background-position:center;border-color:#f8cade}
+.edition-three .new-row-heading.catalogue-banner-hot{background-image:url('/assets/catalogue-strip-hot.webp')}
+.edition-three .new-row-heading.catalogue-banner-video{background-image:url('/assets/catalogue-strip-video.webp')}
+.edition-three .new-row-heading.catalogue-banner-hello{background-image:url('/assets/catalogue-strip-hello.webp')}
+.edition-three .new-row-heading>div:first-child{justify-content:center;text-align:center}
+@media(max-width:680px){.edition-three .catalog-row-v3 .new-row-heading{justify-content:center;padding:7px 12px;background-size:auto 100%}}
+/* Full-surface pink raster artwork and a controlled shimmer pass. */
+.edition-three .catalog-row-v3 .new-row-heading{isolation:isolate;overflow:hidden;background-color:#f47db7;background-size:cover;background-position:center;border:0;min-height:42px}
+.edition-three .new-row-heading.catalogue-banner-hot{background-image:linear-gradient(90deg,#ec4a9d18,#ffd3e444,#ed5fa518),url('/assets/catalogue-strip-hot.webp')}
+.edition-three .new-row-heading.catalogue-banner-video{background-image:linear-gradient(90deg,#e67acb30,#ffc5e333,#d169b530),url('/assets/catalogue-strip-video.webp')}
+.edition-three .new-row-heading.catalogue-banner-hello{background-image:linear-gradient(90deg,#ff89a92b,#ffd0dd33,#ef6da12b),url('/assets/catalogue-strip-hello.webp')}
+.edition-three .new-row-heading>div:first-child{position:relative;z-index:2}
+.edition-three .new-row-heading h3{color:#661c49;text-shadow:0 1px 0 #ffe5f3a8;font-weight:800}
+.edition-three .new-row-heading .hot-heading-mark,.edition-three .new-row-heading .catalog-category{color:#912151}
+.edition-three .catalog-row-v3 .new-row-heading::after{content:'';position:absolute;inset:-50% auto -50% -50%;width:38%;background:linear-gradient(105deg,transparent 15%,#fff2 38%,#fff9 50%,#fff2 62%,transparent 85%);transform:skewX(-18deg);animation:matcha-banner-shimmer 6s ease-in-out infinite;pointer-events:none;z-index:1}
+@keyframes matcha-banner-shimmer{0%,25%{left:-50%;opacity:0}32%{opacity:.8}65%{left:125%;opacity:.8}66%,100%{left:125%;opacity:0}}
+@media(max-width:680px){.edition-three .catalog-row-v3 .new-row-heading{min-height:34px;background-size:cover}}
+@media(prefers-reduced-motion:reduce){.edition-three .catalog-row-v3 .new-row-heading::after{animation:none;display:none}}
+/* Final responsive catalogue: mobile pairs and restrained thin banners. */
+.edition-three .catalog-row-v3 .new-row-heading{min-height:32px;padding:5px 18px;background-blend-mode:screen;background-color:#f8bdd9}
+.edition-three .new-row-heading h3{font-size:15px}
+.edition-three .new-row-heading .hot-heading-mark b{font-size:19px}
+.edition-three .new-row-heading .hot-heading-mark svg{width:15px;height:18px}
+.edition-three .new-row-heading .catalog-category{font-size:11px}
+.edition-three .catalog-row-v3 .new-row-heading::after{opacity:.45;animation-duration:8s}
+@media(max-width:680px){.edition-three .featured-rail,.edition-three .new-pp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:10px 0 18px}.edition-three .catalog-row-v3 .new-row-heading{min-height:28px;padding:4px 12px}.edition-three .new-row-heading h3{font-size:12px}.edition-three .new-row-heading .hot-heading-mark b{font-size:16px}.edition-three .new-row-heading .hot-heading-mark svg{width:13px;height:15px}.edition-three .new-row-heading .catalog-category{font-size:10px}.edition-three .matcha-card,.edition-three .matcha-card.matcha-card-featured{border-radius:12px}.edition-three .matcha-card .matcha-portrait{border-radius:10px 10px 0 0}}

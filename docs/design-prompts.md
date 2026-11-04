@@ -36,6 +36,10 @@ Create one tactile 3D service illustration on a transparent background: choose e
 - UI icons must come from Lucide (lucide-react or the react-icons/lu Lucide set); do not hand-draw SVG icons or substitute emoji/unicode glyphs. The Matcha wordmark/hex and supplied raster artwork are brand assets, not UI icons.
 - Buttons use a solid purple fill, never a gradient.
 - Use the display font for headings and muted copy; muted text changes color, not font family.
-- Keep landing layouts compact and image-led. Four catalogue cards should fit across on mobile.
+- Keep landing layouts compact and image-led. Use a maximum of two catalogue columns on mobile and show complete pairs.
 - Current services are voice calls and video calls only. Keep “200 cha / hour” as the sample default where a price is required.
 - Do not imply live booking, calls, payments, verified profiles, or encryption unless the implementation supports them.
+
+## Thin catalogue section banners
+
+Use restrained sharp pink raster artwork across the whole banner with a subtle pink gradient. Center HOT / VIDEO / HELLO and its title as live text. Keep the banner about 32 px tall on desktop and 28 px on mobile. Add a gentle CSS shimmer, disabled for reduced motion. Avoid complex ornaments or blank white side margins.
