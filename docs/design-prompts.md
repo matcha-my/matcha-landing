@@ -42,4 +42,4 @@ Create one tactile 3D service illustration on a transparent background: choose e
 
 ## Thin catalogue section banners
 
-Use restrained sharp pink raster artwork across the whole banner with a subtle pink gradient. Center HOT / VIDEO / HELLO and its title as live text. Keep the banner about 32 px tall on desktop and 28 px on mobile. Add a gentle CSS shimmer, disabled for reduced motion. Avoid complex ornaments or blank white side margins.
+Use restrained, crisp rose-pink satin raster artwork at normal medium brightness across the whole banner with gentle gradients. Avoid dark plum, crystal facets, and complex ornaments. Center HOT / VIDEO / HELLO and its title as glowing white live text. Keep the banner about 32 px tall on desktop and 28 px on mobile. Add a gentle CSS shimmer, disabled for reduced motion. Avoid complex ornaments or blank white side margins.

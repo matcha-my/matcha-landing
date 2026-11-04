@@ -184,16 +184,16 @@
 @media(max-width:680px){.edition-three .catalog-row-v3 .new-row-heading{padding:7px 18px;min-height:34px;margin-bottom:10px}.edition-three .new-row-heading h3{font-size:13px}.edition-three .new-row-heading>div:first-child{gap:9px}.edition-three .new-row-heading .hot-heading-mark b{font-size:18px}.edition-three .new-row-heading .hot-heading-mark svg{width:14px;height:17px}.edition-three .new-row-heading .catalog-category{font-size:10px}.edition-three .private-v3 h2{font-size:clamp(27px,7.8vw,34px)}}
 /* Raster campaign artwork with centered live headings. */
 .edition-three .catalog-row-v3 .new-row-heading{justify-content:center;padding:8px 18px;background-color:#fff0f7;background-size:cover;background-position:center;border-color:#f8cade}
-.edition-three .new-row-heading.catalogue-banner-hot{background-image:url('/assets/catalogue-strip-hot.webp')}
-.edition-three .new-row-heading.catalogue-banner-video{background-image:url('/assets/catalogue-strip-video.webp')}
-.edition-three .new-row-heading.catalogue-banner-hello{background-image:url('/assets/catalogue-strip-hello.webp')}
+.edition-three .new-row-heading.catalogue-banner-hot{background-image:url('/assets/catalogue-satin-hot.webp')}
+.edition-three .new-row-heading.catalogue-banner-video{background-image:url('/assets/catalogue-satin-video.webp')}
+.edition-three .new-row-heading.catalogue-banner-hello{background-image:url('/assets/catalogue-satin-hello.webp')}
 .edition-three .new-row-heading>div:first-child{justify-content:center;text-align:center}
 @media(max-width:680px){.edition-three .catalog-row-v3 .new-row-heading{justify-content:center;padding:7px 12px;background-size:auto 100%}}
 /* Full-surface pink raster artwork and a controlled shimmer pass. */
 .edition-three .catalog-row-v3 .new-row-heading{isolation:isolate;overflow:hidden;background-color:#f47db7;background-size:cover;background-position:center;border:0;min-height:42px}
-.edition-three .new-row-heading.catalogue-banner-hot{background-image:linear-gradient(90deg,#ec4a9d18,#ffd3e444,#ed5fa518),url('/assets/catalogue-strip-hot.webp')}
-.edition-three .new-row-heading.catalogue-banner-video{background-image:linear-gradient(90deg,#e67acb30,#ffc5e333,#d169b530),url('/assets/catalogue-strip-video.webp')}
-.edition-three .new-row-heading.catalogue-banner-hello{background-image:linear-gradient(90deg,#ff89a92b,#ffd0dd33,#ef6da12b),url('/assets/catalogue-strip-hello.webp')}
+.edition-three .new-row-heading.catalogue-banner-hot{background-image:linear-gradient(90deg,#ec4a9d18,#ffd3e444,#ed5fa518),url('/assets/catalogue-satin-hot.webp')}
+.edition-three .new-row-heading.catalogue-banner-video{background-image:linear-gradient(90deg,#e67acb30,#ffc5e333,#d169b530),url('/assets/catalogue-satin-video.webp')}
+.edition-three .new-row-heading.catalogue-banner-hello{background-image:linear-gradient(90deg,#ff89a92b,#ffd0dd33,#ef6da12b),url('/assets/catalogue-satin-hello.webp')}
 .edition-three .new-row-heading>div:first-child{position:relative;z-index:2}
 .edition-three .new-row-heading h3{color:#661c49;text-shadow:0 1px 0 #ffe5f3a8;font-weight:800}
 .edition-three .new-row-heading .hot-heading-mark,.edition-three .new-row-heading .catalog-category{color:#912151}
@@ -225,3 +225,17 @@
 .edition-three .launch-promo{margin:0;background:#6945ff;color:#fff;border:0;border-radius:0;padding:9px 0;font-weight:800}
 .edition-three .launch-promo b{color:#fff}
 @media(max-width:680px){.edition-three .launch-promo{margin:0;padding:8px 0}}
+/* Rose satin section banners with luminous centered type. */
+.edition-three .catalog-row-v3 .new-row-heading{background-blend-mode:normal;background-color:#df5a9f}
+.edition-three .new-row-heading.catalogue-banner-hot{background-image:linear-gradient(90deg,#ed63a912,#f884ba08,#e963a812),url('/assets/catalogue-satin-hot.webp')}
+.edition-three .new-row-heading.catalogue-banner-video{background-image:linear-gradient(90deg,#e766b812,#f489c008,#df66ad12),url('/assets/catalogue-satin-video.webp')}
+.edition-three .new-row-heading.catalogue-banner-hello{background-image:linear-gradient(90deg,#f476aa12,#fa8fbb08,#ee6ca312),url('/assets/catalogue-satin-hello.webp')}
+.edition-three .new-row-heading h3,.edition-three .new-row-heading .hot-heading-mark,.edition-three .new-row-heading .hot-heading-mark b,.edition-three .new-row-heading .catalog-category{color:#fff;text-shadow:0 0 5px #fff8,0 0 14px #ff96d56b,0 1px 2px #210b2e;animation:matcha-banner-type-glow 6s ease-in-out infinite}
+@keyframes matcha-banner-type-glow{0%,100%{text-shadow:0 0 4px #fff7,0 0 10px #ff96d54d,0 1px 2px #210b2e}50%{text-shadow:0 0 7px #fffb,0 0 17px #ff96d580,0 1px 2px #210b2e}}
+@media(prefers-reduced-motion:reduce){.edition-three .new-row-heading h3,.edition-three .new-row-heading .hot-heading-mark,.edition-three .new-row-heading .hot-heading-mark b,.edition-three .new-row-heading .catalog-category{animation:none}}
+/* Matcha hero wordmark: saturated purple, dimensional depth, and light sweep. */
+.edition-three .new-hero h1 .hero-matcha-word{position:relative;display:inline-block;isolation:isolate;white-space:nowrap;font-weight:900;letter-spacing:-.055em;line-height:1.2;padding:0 .04em .06em 0;transform:rotate(-2deg);color:#6945ff;background:linear-gradient(105deg,#4520c6 0%,#7646ff 28%,#a27bff 48%,#6232ee 68%,#4520c6 100%);background-size:220% 100%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 0 #3f1cad) drop-shadow(0 9px 12px #9265ff42);animation:matcha-word-flow 7s ease-in-out infinite}
+.edition-three .hero-matcha-word::after{content:attr(data-text);position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(105deg,transparent 35%,#fff0 44%,#ffff 50%,#fff0 56%,transparent 65%);background-size:300% 100%;background-position:160% 0;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:matcha-word-glint 5s ease-in-out infinite}
+@keyframes matcha-word-flow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+@keyframes matcha-word-glint{0%,28%{background-position:160% 0}70%,100%{background-position:-100% 0}}
+@media(prefers-reduced-motion:reduce){.edition-three .new-hero h1 .hero-matcha-word,.edition-three .hero-matcha-word::after{animation:none}}

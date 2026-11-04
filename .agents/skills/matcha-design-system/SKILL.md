@@ -30,4 +30,4 @@ Use the detailed banner, portrait, service-art, and credit-art prompts in the pr
 
 Keep the white card area to name, a prominent flag without a country label, actual completed-session count, up/down votes, cha hourly price, and one CTA. Keep the voice/video symbol on the photograph only. Do not add taglines, language tags, personality tags, or a duplicate service icon to the white area. Scale typography, image, badges, controls, and spacing together from card width; use a maximum of two columns on mobile and display complete pairs without overflow. Initialize unknown service counts and votes to zero rather than inventing social proof.
 
-Catalogue section headings use restrained, full-width pink raster artwork, centered live text, and a CSS shimmer. Keep these banners thin: about 32 px desktop and 28 px mobile. Reduce motion when requested by the device.
+Catalogue section headings use restrained, full-width rose-pink satin raster artwork at normal brightness, centered glowing white live text, and a CSS shimmer. Avoid crystal facets and dark plum styling. Keep these banners thin: about 32 px desktop and 28 px mobile. Reduce motion when requested by the device.
