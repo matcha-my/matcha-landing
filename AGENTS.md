@@ -1,0 +1,1 @@
+Before Matcha UI or visual design work, read .agents/skills/matcha-design-system/SKILL.md and follow the shared Matcha component library, tokens, prompt sheet, and Lucide-only interface icon convention. For asset direction, also read docs/design-prompts.md.

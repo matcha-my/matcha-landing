@@ -57,7 +57,7 @@ The owner authorized Tanwyhang’s personal Vercel scope for the landing page. P
 
 ## Catalog edition
 
-The homepage uses three editorial rows of four profiles: HOT highlights, gaming, then chat/voice/video. HOT is an editorial label, not a fabricated popularity statistic. Filters hide empty groups. Each service object is an independent alpha WebP with CSS shadows and overflow, not part of a flattened banner. Site text uses 陪陪; copy is intentionally brief, with detailed explanations on supporting pages. Desktop shows three rows; mobile uses two columns within each group.
+The homepage uses three editorial rows of companion profiles, with Yuna replacing Mika in the HOT row. HOT is an editorial label, not a fabricated popularity statistic. Filters hide empty groups. Each service object is an independent alpha WebP with CSS shadows and overflow, not part of a flattened banner. Site text uses 陪陪; copy is intentionally brief, with detailed explanations on supporting pages. Mobile shows four compact cards across in each catalogue row.
 
 The current portraits use a youthful adult (age 21) selfie-inspired direction: soft makeup, airy bangs, casual everyday clothes and brighter natural light. Source prompts and paths are in `docs/asset-prompts-youth.json` and `docs/asset-paths-youth.json`; optimized files use the versioned `pp-youth-` prefix to avoid old-image caches.
 

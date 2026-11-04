@@ -44,3 +44,98 @@
 
 /* Keep the HOT borders and badges without a surrounding glow. */
 .edition-three .matcha-card-featured,.hot-seal,.edition-three .matcha-card-featured .hot-seal{box-shadow:none}
+
+/* Mobile catalogue: show every profile in a compact four-card row. */
+@media(max-width:680px){
+ .new-hero{min-height:0;padding:54px 0 42px;gap:28px;grid-template-columns:1fr}
+ .new-hero h1{font-size:clamp(56px,13vw,70px);line-height:1.12;margin:18px 0}
+ .new-hero-showcase{transform:scale(1.03);transform-origin:center}
+ .hero-rails{gap:12px}
+ .hero-rail-card{width:138px;height:108px}
+ .featured-rail,.new-pp-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(4px,1.5vw,8px);overflow:visible;scroll-snap-type:none;padding:0 0 12px}
+ .edition-three .matcha-card{border-radius:11px;min-width:0}
+ .matcha-card-featured{box-shadow:0 0 0 1px #a855ff,0 0 12px #8c35ff70,0 0 24px #a855ff35}
+ .matcha-portrait{aspect-ratio:4/5;border-radius:10px 10px 0 0}
+ .hot-seal{top:4px;left:4px;gap:1px;padding:2px 3px;border-radius:5px}
+ .hot-seal>svg{width:7px;height:9px}
+ .hot-seal>b{font-size:7px;letter-spacing:0}
+ .pp-save{top:4px;right:4px;width:19px;height:19px;font-size:15px}
+ .pp-sound{right:3px;bottom:-8px;width:23px;height:23px;border-width:2px}
+ .pp-sound svg{width:13px;height:13px}
+ .matcha-card-body{padding:7px 5px 7px}
+ .matcha-card-name{display:block;margin:0}
+ .matcha-card-name h4{font-size:clamp(8px,2.8vw,11px);line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .matcha-card-name>span,.pp-new-label{display:none}
+ .pp-one-liner{font-size:6px;line-height:1.25;margin:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .pp-tags{gap:2px;flex-wrap:wrap;margin-top:3px}
+ .pp-tags>span{font-size:5px;line-height:1.15;padding:2px 3px;border-radius:3px;letter-spacing:0;white-space:nowrap}
+ .pp-offer{gap:2px;margin-top:5px;padding-top:5px;min-width:0}
+ .pp-offer .cha-coin{display:none}
+ .pp-offer>div{min-width:0}
+ .pp-offer strong{font-size:clamp(7px,2.3vw,9px);letter-spacing:-.2px;white-space:nowrap}
+ .pp-offer strong em{font-size:6px}
+ .pp-offer small{font-size:5px;line-height:1.2;white-space:normal}
+ .pp-select{min-height:23px;padding:4px 3px!important;border-radius:5px;font-size:6px;line-height:1.1;margin-top:5px}
+ .pp-select>span{display:none}
+ .new-row-heading{margin-bottom:12px;gap:8px}
+ .new-row-heading>div:first-child{gap:8px}
+ .new-row-heading h3{font-size:16px}
+ .hot-heading-mark>b{font-size:25px}
+ .hot-heading-mark>svg{width:20px;height:24px}
+ .catalog-arrows{gap:5px}
+ .catalog-arrows button{width:27px;height:27px}
+}
+@media(min-width:681px){
+ .new-hero{min-height:clamp(650px,58vw,760px);grid-template-columns:.82fr 1.18fr;gap:clamp(32px,4vw,62px)}
+ .new-hero-showcase{transform:scale(1.07);transform-origin:center}
+ .hero-rail-card{width:180px;height:140px}
+}
+
+/* Matcha catalogue refinements: title family throughout, compact card metadata, Lucide service marks. */
+.edition-three{font-family:MatchaRounded,MatchaSans,'PingFang SC','Microsoft YaHei',sans-serif}
+.edition-three .new-hero-copy>p,.edition-three .new-catalog-heading p,.edition-three .pp-one-liner,.edition-three .origin-country,.edition-three .pp-offer em{font-family:MatchaRounded,MatchaSans,'PingFang SC','Microsoft YaHei',sans-serif}
+.edition-three .pp-one-liner{color:#927f9a}
+.matcha-card-name{justify-content:flex-start;gap:9px;padding-right:0}
+.origin-country{display:inline-flex;align-items:center;gap:4px;color:#9b8aa4;font-size:9px;white-space:nowrap}
+.origin-country svg{width:13px;height:9px;border-radius:2px;box-shadow:0 0 0 1px #271c3510}
+.pp-tags{align-items:center}
+.pp-tags>.tag-service{display:grid;place-items:center;width:26px;height:24px;padding:0!important;border-radius:6px}
+.service-icon{width:15px;height:15px;stroke-width:2}
+.pp-sound{display:grid;place-items:center}
+.call-service-icon{width:21px;height:21px;stroke-width:2.2}
+.favorite-icon{width:16px;height:16px;stroke-width:1.8;fill:none}
+.pp-save[aria-pressed=true] .favorite-icon{fill:currentColor}
+.hot-seal .lucide-inline,.hot-heading-mark .lucide-inline{width:1.1em;height:1.1em;stroke-width:2.7}
+.pp-offer{margin-bottom:11px}
+.pp-offer small,.pp-new-label{display:none!important}
+.pp-offer strong{font-size:20px!important}
+.pp-offer strong em{font-style:normal;font-weight:400;font-size:12px;color:#9b8aa4}
+.pp-select .cta-icon{width:18px;height:18px}
+.privacy-hex-mark{width:29px;height:29px;object-fit:contain}
+@media(max-width:680px){
+ .featured-rail,.new-pp-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(4px,1.5vw,8px);overflow:visible;scroll-snap-type:none;padding:0 0 12px;margin:0}
+ .edition-three .matcha-card-featured{display:block;flex-basis:auto;max-width:none;grid-template-columns:none;padding:0;border-width:1px;border-radius:11px}
+ .matcha-card-featured .matcha-portrait{min-height:0}
+ .matcha-card-featured .matcha-card-body{padding:7px 5px}
+ .matcha-card-featured .pp-one-liner{font-size:6px;line-height:1.25;margin:3px 0}
+ .matcha-card-featured .pp-tags{gap:2px;margin:3px 0 5px}
+ .matcha-card-featured .pp-tags>span{font-size:5px;padding:2px 3px}
+ .matcha-card-name{display:flex;align-items:center;gap:3px;min-width:0}
+ .matcha-card-name h4{font-size:clamp(8px,2.8vw,11px);flex:0 1 auto}
+ .matcha-card-name .origin-country{display:inline-flex!important;font-size:5px;gap:2px;min-width:0;overflow:hidden;text-overflow:ellipsis}
+ .origin-country svg{width:9px;height:6px;flex-shrink:0}
+ .matcha-card-name>span.pp-new-label{display:none!important}
+ .pp-offer{gap:2px;margin:5px 0;padding-top:5px;min-width:0}
+ .pp-offer .cha-coin{display:none}
+ .pp-offer strong{font-size:clamp(7px,2.3vw,9px)!important;letter-spacing:-.2px;white-space:nowrap}
+ .pp-offer strong em{font-size:6px}
+ .pp-select{min-height:23px;padding:4px 3px!important;border-radius:5px;font-size:6px;line-height:1.1;margin-top:4px}
+ .pp-select .cta-icon{display:none}
+ .pp-sound{right:3px;bottom:-8px;width:23px;height:23px;border-width:2px}
+ .call-service-icon{width:13px;height:13px}
+ .pp-save{width:19px;height:19px;top:4px;right:4px;padding:0}
+ .favorite-icon{width:12px;height:12px}
+ .hot-seal{top:4px;left:4px;padding:2px 3px}
+ .hot-seal .lucide-inline{width:7px;height:9px}
+ .hot-seal>b{font-size:7px}
+}
