@@ -221,3 +221,7 @@
 @keyframes launch-promo-scroll{to{transform:translateX(-50%)}}
 @media(max-width:680px){.launch-promo{margin-top:10px;font-size:11px;padding:7px 0}.launch-promo-group{gap:38px;padding-right:38px}}
 @media(prefers-reduced-motion:reduce){.launch-promo-track{animation:none;transform:none}.launch-promo-group[aria-hidden=true]{display:none}}
+/* High-contrast launch announcement, flush below the header. */
+.edition-three .launch-promo{margin:0;background:#6945ff;color:#fff;border:0;border-radius:0;padding:9px 0;font-weight:800}
+.edition-three .launch-promo b{color:#fff}
+@media(max-width:680px){.edition-three .launch-promo{margin:0;padding:8px 0}}
