@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://matcha.talk/#organization",
+      "name": "Matcha",
+      "url": "https://matcha.talk/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://matcha.talk/assets/matcha-mark-light.webp"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Malaysia"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://matcha.talk/#website",
+      "name": "Matcha",
+      "url": "https://matcha.talk/",
+      "publisher": {
+        "@id": "https://matcha.talk/#organization"
+      },
+      "inLanguage": [
+        "zh-MY",
+        "en-MY"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://matcha.talk/guide/#webpage",
+      "url": "https://matcha.talk/guide/",
+      "name": "马来西亚陪陪新手指南｜怎样选择陪聊与视频陪伴 | Matcha",
+      "description": "第一次找陪陪？了解马来西亚语音陪聊、视频聊天和视频通话的区别，怎样查看语言、兴趣、计费单位及个人边界，再选择合适的线上陪伴。",
+      "inLanguage": "zh-MY",
+      "isPartOf": {
+        "@id": "https://matcha.talk/#website"
+      },
+      "about": {
+        "@id": "https://matcha.talk/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://matcha.talk/guide/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Matcha",
+          "item": "https://matcha.talk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "马来西亚陪陪新手指南",
+          "item": "https://matcha.talk/guide/"
+        }
+      ]
+    }
+  ]
+}

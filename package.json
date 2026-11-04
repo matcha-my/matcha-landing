@@ -1,0 +1,19 @@
+{
+  "name": "matcha-landing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "country-flag-icons": "^1.6.20",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /account/
+
+Sitemap: https://matcha.talk/sitemap.xml
+# AI directory: https://matcha.talk/llms.txt

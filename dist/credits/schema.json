@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://matcha.talk/#organization",
+      "name": "Matcha",
+      "url": "https://matcha.talk/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://matcha.talk/assets/matcha-mark-light.webp"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Malaysia"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://matcha.talk/#website",
+      "name": "Matcha",
+      "url": "https://matcha.talk/",
+      "publisher": {
+        "@id": "https://matcha.talk/#organization"
+      },
+      "inLanguage": [
+        "zh-MY",
+        "en-MY"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://matcha.talk/credits/#webpage",
+      "url": "https://matcha.talk/credits/",
+      "name": "cha说明｜服务计费与下单流程 | Matcha 马来西亚",
+      "description": "了解 Matcha cha的拟定用途、服务计费单位和下单前确认流程。正式兑换比例、支付方式及退款规则待公布；此预览不提供充值。",
+      "inLanguage": "zh-MY",
+      "isPartOf": {
+        "@id": "https://matcha.talk/#website"
+      },
+      "about": {
+        "@id": "https://matcha.talk/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://matcha.talk/credits/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Matcha",
+          "item": "https://matcha.talk/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "cha说明",
+          "item": "https://matcha.talk/credits/"
+        }
+      ]
+    }
+  ]
+}

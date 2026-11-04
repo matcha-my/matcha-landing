@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://matcha.talk/#organization",
+      "name": "Matcha",
+      "url": "https://matcha.talk/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://matcha.talk/assets/matcha-mark-light.webp"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Malaysia"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://matcha.talk/#website",
+      "name": "Matcha",
+      "url": "https://matcha.talk/",
+      "publisher": {
+        "@id": "https://matcha.talk/#organization"
+      },
+      "inLanguage": [
+        "zh-MY",
+        "en-MY"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://matcha.talk/en/#webpage",
+      "url": "https://matcha.talk/en/",
+      "name": "Matcha Malaysia | Companions, Private Chats & Gaming Together",
+      "description": "Meet Matcha, a Chinese-first companion platform for Malaysia. Explore private conversations, voice and video companionship, video calls partners and the planned cha experience.",
+      "inLanguage": "en-MY",
+      "isPartOf": {
+        "@id": "https://matcha.talk/#website"
+      },
+      "about": {
+        "@id": "https://matcha.talk/#organization"
+      }
+    }
+  ]
+}

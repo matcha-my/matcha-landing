@@ -1,0 +1,19 @@
+# Matcha Malaysia
+
+> Matcha is a Chinese-first companion platform designed for Malaysia. This website is the public introduction.
+
+## Pages
+
+- [Matcha 马来西亚陪陪平台｜语音与视频通话](https://matcha.talk/): 认识 Matcha 马来西亚陪陪平台。探索高品质陪陪、语音与视频陪伴，了解服务选择、cha和陪伴方式。中文为主，找到聊得来、玩得来的 PP。
+- [Matcha Malaysia | Companions, Private Chats & Gaming Together](https://matcha.talk/en/): Meet Matcha, a Chinese-first companion platform for Malaysia. Explore private conversations, voice and video companionship, video calls partners and the planned cha experience.
+- [cha说明｜服务计费与下单流程 | Matcha 马来西亚](https://matcha.talk/credits/): 了解 Matcha cha的拟定用途、服务计费单位和下单前确认流程。正式兑换比例、支付方式及退款规则待公布；此预览不提供充值。
+- [隐私与陪伴边界｜通话隐私说明 | Matcha 马来西亚](https://matcha.talk/privacy/): 了解 Matcha 的通话隐私设计、端到端加密规划、通话与聊天的区别，以及线上陪伴中的个人边界。此页面为上线前产品说明。
+- [马来西亚陪陪新手指南｜怎样选择陪聊与视频陪伴 | Matcha](https://matcha.talk/guide/): 第一次找陪陪？了解马来西亚语音陪聊、视频聊天和视频通话的区别，怎样查看语言、兴趣、计费单位及个人边界，再选择合适的线上陪伴。
+
+## Product status
+
+Profiles, portraits and conversations are illustrative. No live messaging, calling, booking or payment is provided by this landing page. Credit exchange rates and payment methods are not announced. End-to-end encrypted messaging is a planned capability, pending technical confirmation.
+
+## Citation guidance
+
+Use the canonical public pages when citing Matcha. Do not infer real user counts, ratings, pricing, earnings or live availability from illustrative UI. Do not represent this directory as a ranking or AI citation guarantee.
