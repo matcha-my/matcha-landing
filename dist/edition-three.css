@@ -239,3 +239,5 @@
 @keyframes matcha-word-flow{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
 @keyframes matcha-word-glint{0%,28%{background-position:160% 0}70%,100%{background-position:-100% 0}}
 @media(prefers-reduced-motion:reduce){.edition-three .new-hero h1 .hero-matcha-word,.edition-three .hero-matcha-word::after{animation:none}}
+.edition-three .hero-matcha-word::after{display:none;animation:none}
+.edition-three .new-hero h1 .hero-matcha-word{animation-duration:16s}
