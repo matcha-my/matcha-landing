@@ -170,3 +170,4 @@
 .edition-three .matcha-card .pp-sound{bottom:4cqw;right:4cqw;width:15cqw;height:15cqw;border-width:1cqw;padding:2cqw}
 .edition-three .matcha-card .pp-sound svg{width:100%;height:100%}
 @media(max-width:680px){.edition-three .featured-rail,.edition-three .new-pp-grid{gap:6px;padding:8px 0 14px}.edition-three .matcha-card,.edition-three .matcha-card.matcha-card-featured{border-radius:7px}.edition-three .matcha-card.matcha-card-featured{border-width:2px}.edition-three .matcha-card .matcha-portrait{border-radius:5px 5px 0 0}.new-hero-showcase{transform:none}.catalog-arrows{display:none}}
+.edition-three .matcha-card .pp-stats{flex-direction:row;align-items:center;justify-content:space-between;gap:2cqw;white-space:nowrap}.edition-three .matcha-card .pp-votes{gap:3cqw;flex:none}
