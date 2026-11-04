@@ -4,8 +4,13 @@
     {
       "@type": "Organization",
       "@id": "https://matcha.talk/#organization",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha",
+        "Matcha Malaysia"
+      ],
       "url": "https://matcha.talk/",
+      "description": "面向马来西亚成年用户的中文陪陪与陪聊平台，Privacy-first 隐私优先，专注语音及视频陪伴。",
       "logo": {
         "@type": "ImageObject",
         "url": "https://matcha.talk/assets/matcha-mark-light.webp"
@@ -18,7 +23,12 @@
     {
       "@type": "WebSite",
       "@id": "https://matcha.talk/#website",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha Malaysia",
+        "Matcha 陪陪",
+        "Matcha 陪聊"
+      ],
       "url": "https://matcha.talk/",
       "publisher": {
         "@id": "https://matcha.talk/#organization"
@@ -32,15 +42,69 @@
       "@type": "WebPage",
       "@id": "https://matcha.talk/#webpage",
       "url": "https://matcha.talk/",
-      "name": "Matcha 马来西亚陪陪平台｜语音与视频通话",
-      "description": "认识 Matcha 马来西亚陪陪平台。探索高品质陪陪、语音与视频陪伴，了解服务选择、cha和陪伴方式。中文为主，找到聊得来、玩得来的 PP。",
+      "name": "Matcha Talk｜马来西亚陪陪・陪聊平台，语音与视频",
+      "description": "Matcha Talk（Matcha Malaysia）是面向马来西亚的中文陪陪与陪聊平台，专注华语语音与视频陪伴。Privacy-first 隐私优先，E2E 加密私聊规划中；游戏陪玩暂未开放。",
+      "dateModified": "2026-11-04",
       "inLanguage": "zh-MY",
       "isPartOf": {
         "@id": "https://matcha.talk/#website"
       },
       "about": {
         "@id": "https://matcha.talk/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://matcha.talk/#faq"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://matcha.talk/#faq",
+      "isPartOf": {
+        "@id": "https://matcha.talk/#webpage"
+      },
+      "inLanguage": "zh-MY",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Matcha Talk 是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matcha Talk（Matcha Malaysia）是面向马来西亚成年用户的中文陪陪与陪聊平台，以 Privacy-first 隐私优先为设计方向，专注语音与视频陪伴。当前网站展示平台概念与档案，正式预约尚未开放。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Matcha 陪陪与 Matcha 陪聊有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "陪陪是陪伴者的称呼，陪聊是互动方式。你可以在 Matcha 认识适合自己的华语陪陪，通过语音或视频交流日常；具体服务、时长和费用以正式开放后的说明为准。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Matcha 陪玩可以一起打游戏吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "目前 Matcha 专注语音与视频通话，游戏陪玩服务暂未开放。搜索 Matcha 陪玩时，请以本网站的实际服务说明为准，不要把陪聊档案当作已开放的游戏陪玩服务。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Privacy-first 和 E2E 加密私聊是什么意思？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Privacy-first 指把隐私与个人边界放在产品设计的重要位置。E2E（端到端加密）旨在让对话内容只由参与端读取；Matcha 的 E2E 私聊目前仍在规划中，通话与聊天的保护范围会在功能上线前分别说明。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在马来西亚怎样使用 Matcha Malaysia？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matcha 面向吉隆坡、槟城、新山及全马线上用户，以中文介绍为主，并提供英文页面。你可以先浏览语音与视频陪陪；账户、预约、充值与招募入口会在正式开放时公布。"
+          }
+        }
+      ]
     }
   ]
 }

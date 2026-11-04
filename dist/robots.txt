@@ -3,6 +3,9 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 Disallow: /account/
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /signup/
 
 Sitemap: https://matcha.talk/sitemap.xml
 # AI directory: https://matcha.talk/llms.txt

@@ -4,8 +4,13 @@
     {
       "@type": "Organization",
       "@id": "https://matcha.talk/#organization",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha",
+        "Matcha Malaysia"
+      ],
       "url": "https://matcha.talk/",
+      "description": "面向马来西亚成年用户的中文陪陪与陪聊平台，Privacy-first 隐私优先，专注语音及视频陪伴。",
       "logo": {
         "@type": "ImageObject",
         "url": "https://matcha.talk/assets/matcha-mark-light.webp"
@@ -18,7 +23,12 @@
     {
       "@type": "WebSite",
       "@id": "https://matcha.talk/#website",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha Malaysia",
+        "Matcha 陪陪",
+        "Matcha 陪聊"
+      ],
       "url": "https://matcha.talk/",
       "publisher": {
         "@id": "https://matcha.talk/#organization"
@@ -34,6 +44,7 @@
       "url": "https://matcha.talk/credits/",
       "name": "cha说明｜服务计费与下单流程 | Matcha 马来西亚",
       "description": "了解 Matcha cha的拟定用途、服务计费单位和下单前确认流程。正式兑换比例、支付方式及退款规则待公布；此预览不提供充值。",
+      "dateModified": "2026-11-04",
       "inLanguage": "zh-MY",
       "isPartOf": {
         "@id": "https://matcha.talk/#website"
@@ -49,7 +60,7 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Matcha",
+          "name": "Matcha Talk",
           "item": "https://matcha.talk/"
         },
         {

@@ -247,3 +247,4 @@
 .edition-three .hero-rail-card:hover{transform:none}
 .edition-three .hero-rails-bottom{padding-bottom:4px}
 @media(max-width:680px){.edition-three .new-hero-showcase{margin:0 -10px;padding:12px 0;border-radius:22px}.edition-three .hero-rails-bottom{padding-inline:18px}}
+.privacy-source-links{font-size:11px;line-height:1.8;color:#93809f;margin-top:16px}.privacy-source-links a{color:#7955ba;text-decoration:underline;text-underline-offset:3px}

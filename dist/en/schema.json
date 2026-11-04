@@ -4,8 +4,13 @@
     {
       "@type": "Organization",
       "@id": "https://matcha.talk/#organization",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha",
+        "Matcha Malaysia"
+      ],
       "url": "https://matcha.talk/",
+      "description": "面向马来西亚成年用户的中文陪陪与陪聊平台，Privacy-first 隐私优先，专注语音及视频陪伴。",
       "logo": {
         "@type": "ImageObject",
         "url": "https://matcha.talk/assets/matcha-mark-light.webp"
@@ -18,7 +23,12 @@
     {
       "@type": "WebSite",
       "@id": "https://matcha.talk/#website",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha Malaysia",
+        "Matcha 陪陪",
+        "Matcha 陪聊"
+      ],
       "url": "https://matcha.talk/",
       "publisher": {
         "@id": "https://matcha.talk/#organization"
@@ -32,15 +42,69 @@
       "@type": "WebPage",
       "@id": "https://matcha.talk/en/#webpage",
       "url": "https://matcha.talk/en/",
-      "name": "Matcha Malaysia | Companions, Private Chats & Gaming Together",
-      "description": "Meet Matcha, a Chinese-first companion platform for Malaysia. Explore private conversations, voice and video companionship, video calls partners and the planned cha experience.",
+      "name": "Matcha Talk Malaysia | Privacy-first Voice & Video Companions",
+      "description": "Meet Matcha Talk Malaysia, a Chinese-first companion platform for adults. Explore voice and video companionship, privacy-first design and planned E2E chat.",
+      "dateModified": "2026-11-04",
       "inLanguage": "en-MY",
       "isPartOf": {
         "@id": "https://matcha.talk/#website"
       },
       "about": {
         "@id": "https://matcha.talk/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://matcha.talk/en/#faq"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://matcha.talk/en/#faq",
+      "isPartOf": {
+        "@id": "https://matcha.talk/en/#webpage"
+      },
+      "inLanguage": "en-MY",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Matcha Talk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matcha Talk, also called Matcha Malaysia, is a Chinese-first companion platform for adults in Malaysia. Its privacy-first design focuses on voice and video companionship. This website presents the platform and illustrative profiles; booking is not open yet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Matcha PP and companion chat mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PP refers to a companion, while companion chat describes a way to interact. Matcha is designed for Mandarin voice and video conversations. Service details, duration and pricing will be confirmed before booking opens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Matcha offer gaming companions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gaming companionship is not currently available. Matcha currently focuses on voice and video calls. Searches for Matcha gaming or Matcha 陪玩 should be checked against the services actually described on this website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do privacy-first and E2E encryption mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Privacy-first means treating personal privacy and boundaries as product design priorities. E2E encryption aims to keep message content readable only at the participating endpoints. Matcha E2E chat is planned; messaging and call protection scopes will be explained separately before launch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Matcha Malaysia for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matcha is designed for adults across Malaysia, including Kuala Lumpur, Penang and Johor Bahru. Chinese is the default language, with an English introduction. Accounts, bookings, payments and recruitment are not open yet."
+          }
+        }
+      ]
     }
   ]
 }

@@ -4,8 +4,13 @@
     {
       "@type": "Organization",
       "@id": "https://matcha.talk/#organization",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha",
+        "Matcha Malaysia"
+      ],
       "url": "https://matcha.talk/",
+      "description": "面向马来西亚成年用户的中文陪陪与陪聊平台，Privacy-first 隐私优先，专注语音及视频陪伴。",
       "logo": {
         "@type": "ImageObject",
         "url": "https://matcha.talk/assets/matcha-mark-light.webp"
@@ -18,7 +23,12 @@
     {
       "@type": "WebSite",
       "@id": "https://matcha.talk/#website",
-      "name": "Matcha",
+      "name": "Matcha Talk",
+      "alternateName": [
+        "Matcha Malaysia",
+        "Matcha 陪陪",
+        "Matcha 陪聊"
+      ],
       "url": "https://matcha.talk/",
       "publisher": {
         "@id": "https://matcha.talk/#organization"
@@ -29,11 +39,12 @@
       ]
     },
     {
-      "@type": "WebPage",
+      "@type": "AboutPage",
       "@id": "https://matcha.talk/privacy/#webpage",
       "url": "https://matcha.talk/privacy/",
-      "name": "隐私与陪伴边界｜通话隐私说明 | Matcha 马来西亚",
-      "description": "了解 Matcha 的通话隐私设计、端到端加密规划、通话与聊天的区别，以及线上陪伴中的个人边界。此页面为上线前产品说明。",
+      "name": "Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密规划",
+      "description": "了解 Matcha Malaysia 陪陪与陪聊平台的 Privacy-first 隐私设计、E2E 加密私聊规划，以及语音、视频通话和个人边界。当前网站不提供实时通话或消息传输。",
+      "dateModified": "2026-11-04",
       "inLanguage": "zh-MY",
       "isPartOf": {
         "@id": "https://matcha.talk/#website"
@@ -49,13 +60,13 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Matcha",
+          "name": "Matcha Talk",
           "item": "https://matcha.talk/"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "隐私与陪伴边界",
+          "name": "Matcha Talk 隐私优先",
           "item": "https://matcha.talk/privacy/"
         }
       ]

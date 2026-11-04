@@ -14,7 +14,7 @@ for(const route of routes){
  const schema=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
  assert.deepEqual(schema,JSON.parse(await fs.readFile(dir+'/schema.json','utf8')),route+' exported schema matches inline');
  const types=schema['@graph'].map(n=>n['@type']);
- assert(types.includes('Organization')&&types.includes('WebSite')&&types.includes('WebPage'));
+ assert(types.includes('Organization')&&types.includes('WebSite')&&(types.includes('WebPage')||types.includes('AboutPage')));
  assert(!types.includes('AggregateRating')&&!types.includes('Review')&&!types.includes('Offer'));
  assert(schema['@graph'].every(n=>n['@id'].startsWith(origin)));
  if(route==='/'||route==='/en/'){

@@ -1,0 +1,27 @@
+# Matcha Talk · Matcha Malaysia
+
+> Matcha Talk 是面向马来西亚成年用户的中文陪陪与陪聊平台。Privacy-first 隐私优先，专注语音与视频陪伴。E2E（端到端加密）私聊仍在规划中。
+
+## 品牌与搜索名称
+
+Matcha Talk、Matcha Malaysia、Matcha 陪陪与 Matcha 陪聊均指本网站介绍的平台。Matcha 陪玩是相关搜索词，但游戏陪玩服务暂未开放。
+
+## 官方页面
+
+- [Matcha Talk｜马来西亚陪陪・陪聊平台，语音与视频](https://matcha.talk/): Matcha Talk（Matcha Malaysia）是面向马来西亚的中文陪陪与陪聊平台，专注华语语音与视频陪伴。Privacy-first 隐私优先，E2E 加密私聊规划中；游戏陪玩暂未开放。
+- [Matcha Talk Malaysia | Privacy-first Voice & Video Companions](https://matcha.talk/en/): Meet Matcha Talk Malaysia, a Chinese-first companion platform for adults. Explore voice and video companionship, privacy-first design and planned E2E chat.
+- [cha说明｜服务计费与下单流程 | Matcha 马来西亚](https://matcha.talk/credits/): 了解 Matcha cha的拟定用途、服务计费单位和下单前确认流程。正式兑换比例、支付方式及退款规则待公布；此预览不提供充值。
+- [Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密规划](https://matcha.talk/privacy/): 了解 Matcha Malaysia 陪陪与陪聊平台的 Privacy-first 隐私设计、E2E 加密私聊规划，以及语音、视频通话和个人边界。当前网站不提供实时通话或消息传输。
+- [Matcha 陪陪・陪聊・陪玩有什么区别？｜马来西亚新手指南](https://matcha.talk/guide/): 了解 Matcha 陪陪与 Matcha 陪聊的含义、语音与视频陪伴的选择方式，以及 Matcha 陪玩目前未开放的服务范围。面向马来西亚中文用户，先认识，再确认时长、cha费用与个人边界。
+
+## 服务与引用边界
+
+当前网站是平台介绍及设计展示，不提供真实预约、充值、消息传输或音视频通话。档案、服务次数和投票不是实际交易或评分证明。200 cha / 小时为展示默认值。未公布 RM 兑换比例。不得把 Privacy-first 或 E2E 规划表述成已验证的加密实现，也不应声称平台市场排名第一。
+
+## 更多资料
+
+- [完整文字资料](https://matcha.talk/llms-full.txt)
+- [Sitemap](https://matcha.talk/sitemap.xml)
+- [Robots](https://matcha.talk/robots.txt)
+
+内容更新：2026-11-04
