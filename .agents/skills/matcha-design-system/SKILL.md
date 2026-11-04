@@ -25,3 +25,7 @@ Use this skill for Matcha website and product interface work. Keep Matcha as a C
 ## Asset prompts
 
 Use the detailed banner, portrait, service-art, and credit-art prompts in the project docs/design-prompts.md or the hosted UI sheet. Keep text as HTML/CSS overlays, export production raster artwork as WebP, and preserve negative space for overlays.
+
+## Catalogue card anatomy
+
+Keep the white card area to name, a prominent flag without a country label, actual completed-session count, up/down votes, cha hourly price, and one CTA. Keep the voice/video symbol on the photograph only. Do not add taglines, language tags, personality tags, or a duplicate service icon to the white area. Scale typography, image, badges, controls, and spacing together from card width; preserve four columns on mobile without overflow. Initialize unknown service counts and votes to zero rather than inventing social proof.
