@@ -209,3 +209,7 @@
 .edition-three .new-row-heading .catalog-category{font-size:11px}
 .edition-three .catalog-row-v3 .new-row-heading::after{opacity:.45;animation-duration:8s}
 @media(max-width:680px){.edition-three .featured-rail,.edition-three .new-pp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:10px 0 18px}.edition-three .catalog-row-v3 .new-row-heading{min-height:28px;padding:4px 12px}.edition-three .new-row-heading h3{font-size:12px}.edition-three .new-row-heading .hot-heading-mark b{font-size:16px}.edition-three .new-row-heading .hot-heading-mark svg{width:13px;height:15px}.edition-three .new-row-heading .catalog-category{font-size:10px}.edition-three .matcha-card,.edition-three .matcha-card.matcha-card-featured{border-radius:12px}.edition-three .matcha-card .matcha-portrait{border-radius:10px 10px 0 0}}
+.edition-three .hero-country-flags{gap:16px;align-items:center}
+.edition-three .hero-country-flags>span{display:block;width:44px;padding:0;border:0;border-radius:0;background:none;box-shadow:0 2px 7px #251c3512}
+.edition-three .hero-country-flags svg{display:block;width:100%;height:auto}
+@media(max-width:680px){.edition-three .hero-country-flags{gap:14px}.edition-three .hero-country-flags>span{width:38px}}
