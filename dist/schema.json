@@ -43,7 +43,7 @@
       "@id": "https://matcha.talk/#webpage",
       "url": "https://matcha.talk/",
       "name": "Matcha Talk｜马来西亚陪陪・陪聊平台，语音与视频",
-      "description": "Matcha Talk（Matcha Malaysia）面向马来西亚华语用户，介绍陪陪与陪聊服务，聚焦线上语音与视频陪伴。以 Privacy-first 隐私优先为设计方向，让每一次交流更自在。",
+      "description": "Matcha Talk（Matcha Malaysia）是为马来西亚华语用户打造的中文陪陪与陪聊平台，主打华语语音和视频陪伴。Privacy-first 隐私优先，让交流自在又安心。",
       "dateModified": "2026-11-05",
       "inLanguage": "zh-MY",
       "isPartOf": {
@@ -93,7 +93,7 @@
           "name": "Privacy-first 和 E2E 加密私聊是什么意思？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Privacy-first 指把隐私与个人边界放在产品设计的重要位置。E2E（端到端加密）旨在让对话内容只由参与端读取；Matcha 的 E2E 私聊目前仍在规划中，通话与聊天的保护范围会在功能上线前分别说明。"
+            "text": "Privacy-first 指把隐私与个人边界放在产品设计的重要位置。Matcha 私聊采用 E2E（端到端加密），让对话内容只由参与端读取；语音和视频通话的加密方式与私聊分别处理。"
           }
         },
         {

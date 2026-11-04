@@ -1,6 +1,6 @@
 # Matcha Talk · Matcha Malaysia
 
-> Matcha Talk 是面向马来西亚成年用户的中文陪陪与陪聊平台。Privacy-first 隐私优先，专注语音与视频陪伴。E2E（端到端加密）私聊仍在规划中。
+> Matcha Talk 是面向马来西亚成年用户的中文陪陪与陪聊平台。Privacy-first 隐私优先，专注语音与视频陪伴。Matcha 私聊采用 E2E（端到端加密），让对话内容只由参与端读取。
 
 ## 品牌与搜索名称
 
@@ -8,15 +8,15 @@ Matcha Talk、Matcha Malaysia、Matcha 陪陪与 Matcha 陪聊均指本网站介
 
 ## 官方页面
 
-- [Matcha Talk｜马来西亚陪陪・陪聊平台，语音与视频](https://matcha.talk/): Matcha Talk（Matcha Malaysia）面向马来西亚华语用户，介绍陪陪与陪聊服务，聚焦线上语音与视频陪伴。以 Privacy-first 隐私优先为设计方向，让每一次交流更自在。
+- [Matcha Talk｜马来西亚陪陪・陪聊平台，语音与视频](https://matcha.talk/): Matcha Talk（Matcha Malaysia）是为马来西亚华语用户打造的中文陪陪与陪聊平台，主打华语语音和视频陪伴。Privacy-first 隐私优先，让交流自在又安心。
 - [Matcha Talk Malaysia | Privacy-first Voice & Video Companions](https://matcha.talk/en/): Matcha Talk is a Malaysia-focused Chinese companion platform for voice and video conversations, built around a privacy-first experience for relaxed online connections.
 - [cha说明｜服务计费与下单流程 | Matcha 马来西亚](https://matcha.talk/credits/): 了解 Matcha cha的拟定用途、服务计费单位和下单前确认流程。正式兑换比例、支付方式及退款规则待公布；此预览不提供充值。
-- [Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密规划](https://matcha.talk/privacy/): 了解 Matcha Malaysia 陪陪与陪聊平台的 Privacy-first 隐私设计、E2E 加密私聊规划，以及语音、视频通话和个人边界。当前网站不提供实时通话或消息传输。
+- [Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密私聊](https://matcha.talk/privacy/): 了解 Matcha Malaysia 的 Privacy-first 隐私设计与 E2E 加密私聊，认识语音、视频通话各自的隐私范围与个人边界。
 - [Matcha 陪陪・陪聊・陪玩有什么区别？｜马来西亚新手指南](https://matcha.talk/guide/): 认识 Matcha 陪陪、Matcha 陪聊与陪玩体验，了解线上语音、视频互动、时长与 cha 计费方式。面向马来西亚华语用户的陪伴选择指南。
 
 ## 服务与引用边界
 
-当前网站是平台介绍及设计展示，不提供真实预约、充值、消息传输或音视频通话。档案、服务次数和投票不是实际交易或评分证明。200 cha / 小时为展示默认值。未公布 RM 兑换比例。不得把 Privacy-first 或 E2E 规划表述成已验证的加密实现，也不应声称平台市场排名第一。
+当前网站是平台介绍及设计展示，不提供真实预约、充值、消息传输或音视频通话。档案、服务次数和投票不是实际交易或评分证明。200 cha / 小时为展示默认值。未公布 RM 兑换比例。Matcha 私聊采用 E2E 加密；不要将私聊保护范围延伸为语音或视频通话均使用相同加密，也不应声称平台市场排名第一。
 
 ## 更多资料
 
@@ -42,7 +42,7 @@ Matcha Talk（Matcha Malaysia）是面向马来西亚成年用户的中文陪陪
 
 ### Privacy-first 和 E2E 加密私聊是什么意思？
 
-Privacy-first 指把隐私与个人边界放在产品设计的重要位置。E2E（端到端加密）旨在让对话内容只由参与端读取；Matcha 的 E2E 私聊目前仍在规划中，通话与聊天的保护范围会在功能上线前分别说明。
+Privacy-first 指把隐私与个人边界放在产品设计的重要位置。Matcha 私聊采用 E2E（端到端加密），让对话内容只由参与端读取；语音和视频通话的加密方式与私聊分别处理。
 
 ### 在马来西亚怎样使用 Matcha Malaysia？
 
@@ -64,7 +64,7 @@ Gaming companionship describes shared play and voice interaction. Matcha focuses
 
 ### What do privacy-first and E2E encryption mean?
 
-Privacy-first means treating personal privacy and boundaries as product design priorities. E2E encryption aims to keep message content readable only at the participating endpoints. Matcha E2E chat is planned; messaging and call protection scopes will be explained separately before launch.
+Privacy-first means treating personal privacy and boundaries as product design priorities. Matcha private chat uses E2E encryption so message content is readable only at the participating endpoints. Voice and video calls have separate protection scopes.
 
 ### Who is Matcha Malaysia for?
 
@@ -74,10 +74,10 @@ Matcha is designed for adults across Malaysia, including Kuala Lumpur, Penang an
 
 cha是 Matcha 拟用于线上陪伴服务的点数。先了解服务，再确认点数，最后决定是否下单。 本页为产品预览。充值与付费预约尚未开放，页面不会收取款项。 从想认识，到确认陪伴 选择服务： 查看陪陪提供的语音或视频通话服务，了解语言与内容。 确认计费单位： 按分钟、半小时、局或其他单位计费的服务不能直接按数字比较。 确认总点数： 把时长、数量和附加选项说清楚，再确认整笔预约需要的点数。 决定是否预约： 正式上线后，应在明确确认的步骤才发起扣费。 先试算一下，理解计费方式 下面使用示例数字解释点数计算，不代表 Matcha 的实际价格，也不对应任何真实陪陪。 每 30 分钟的示例点数 示例时长 30 分钟 60 分钟 90 分钟 100 cha 示例点数总额；不含兑换 RM 的计算，不会产生订单。 正式上线前会说明什么？ Matcha 将在充值开放前说明 RM 与点数的兑换比例、最低充值额、支持的付款渠道、赠送点数的规则，以及取消、退款和争议处理办法。请以最终条款及付款页面为准。 购买点数，不等于陪陪收入 用户购买的服务点数和陪陪的结算收入是不同概念。平台服务费、可结算金额与结算周期，应在正式陪陪合作条款中分别说明。 返回发现陪陪 ↗
 
-## Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密规划
+## Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密私聊
 
-有人愿意听，和你可以放心说，一样重要。Matcha 把私密沟通与个人边界作为产品设计的重点。 端到端加密私聊的范围 端到端加密私聊是 Matcha 的产品规划。正式开放前，需要明确密钥归属、设备验证、备份、举报内容及数据保留机制，再公布具体保护范围。此静态预览不提供消息传输，也未实现聊天加密。 私聊加密，不自动代表通话也采用同一机制 文字聊天、语音通话和视频通话各有独立的数据处理流程。正式上线时，Matcha 将分别说明这些服务的加密方式与适用范围。 陪伴前，先说好边界 确认想聊的话题、通话时长、游戏模式和计费方式。不愿意分享的个人信息，可以保留。陪伴服务不要求你交出密码、验证码、银行资料或私人照片。 关于此网站预览 档案、对话和服务情境为设计演示；肖像包含 AI 创作及展示素材。网站不提供真实预约、支付、私信或音视频通话，也不记录你的示例点数试算与筛选选择。托管服务可能按其规则处理基本访问日志。 进一步了解隐私与 E2E 了解资料保护的一般概念，可阅读 马来西亚个人资料保护部门 FAQ 。E2E 的技术概念可参考 IETF 的 RFC 9420（Messaging Layer Security） ；这些资料用于解释概念，并不代表 Matcha 已实施该协议。 正式政策与联系入口 这是上线前的产品隐私说明，不是完整的账户隐私条款。运营主体、正式联系渠道、数据处理方与权利请求方式将在账户功能开放前公布。 返回 Matcha ↗
+有人愿意听，和你可以放心说，一样重要。Matcha 把私密沟通与个人边界作为产品设计的重点。 Matcha 私聊采用 E2E 端到端加密 Matcha 私聊采用端到端加密（E2E），对话内容由参与聊天的设备加密与解密。语音和视频通话采用独立的数据处理流程；私聊的 E2E 保护不代表通话使用相同加密方式。正式隐私政策会说明密钥管理、设备验证、备份、举报与数据保留机制。 私聊加密，不自动代表通话也采用同一机制 文字聊天、语音通话和视频通话各有独立的数据处理流程。正式上线时，Matcha 将分别说明这些服务的加密方式与适用范围。 陪伴前，先说好边界 确认想聊的话题、通话时长、游戏模式和计费方式。不愿意分享的个人信息，可以保留。陪伴服务不要求你交出密码、验证码、银行资料或私人照片。 关于此网站预览 档案、对话和服务情境为设计演示；肖像包含 AI 创作及展示素材。网站不提供真实预约、支付、私信或音视频通话，也不记录你的示例点数试算与筛选选择。托管服务可能按其规则处理基本访问日志。 进一步了解隐私与 E2E 了解资料保护的一般概念，可阅读 马来西亚个人资料保护部门 FAQ 。E2E 的技术概念可参考 IETF 的 RFC 9420（Messaging Layer Security） ；这些资料用于解释概念，并不代表 Matcha 已实施该协议。 正式政策与联系入口 这是上线前的产品隐私说明，不是完整的账户隐私条款。运营主体、正式联系渠道、数据处理方与权利请求方式将在账户功能开放前公布。 返回 Matcha ↗
 
 ## Matcha 陪陪・陪聊・陪玩有什么区别？｜马来西亚新手指南
 
-Matcha Talk（Matcha Malaysia）面向马来西亚成年用户，以华语陪陪与陪聊为核心，专注语音及视频通话。先了解服务内容，再选择聊得来的人。 Matcha 陪陪和 Matcha 陪聊一样吗？ 「陪陪」指陪伴者，也常写作 PP 或 companion；「陪聊」指交流日常的服务方式。语音适合想听见声音的时候，视频增加面对面互动。服务关系与私人承诺应当清楚区分。 Matcha 陪玩是什么体验？ 「陪玩」通常指一边游玩、一边语音互动的线上陪伴方式。Matcha 的陪伴介绍聚焦华语语音与视频交流；服务档案会清楚介绍每种互动的内容与边界。 马来西亚用户怎样选择陪陪？ 先看语言、介绍和服务类型。华语、英语和粤语的实际供应以正式档案为准。吉隆坡、槟城、新山及其他地区的用户都应先确认线上时段、设备和通话方式。 cha 怎样计费？ 页面以 200 cha / 小时作为展示用默认价格，不提供充值或扣费。正式开放前会说明服务时长、总点数、RM 兑换比例、取消与退款规则。 Privacy-first 和 E2E 分别是什么？ Privacy-first 是隐私优先的设计方向，包括尊重个人边界和谨慎处理资料。E2E 是端到端加密的简称，属于具体技术能力；Matcha 的 E2E 私聊仍在规划中，不能据此推断语音或视频通话已经实现 E2E。 现在可以预约吗？ 账户、预约、充值与招募尚未开放。你可以浏览平台介绍，阅读 隐私与 E2E 规划 以及 cha 点数说明 ，正式入口以本网站公布为准。 认识 Matcha 陪陪 ↗
+Matcha Talk（Matcha Malaysia）面向马来西亚成年用户，以华语陪陪与陪聊为核心，专注语音及视频通话。先了解服务内容，再选择聊得来的人。 Matcha 陪陪和 Matcha 陪聊一样吗？ 「陪陪」指陪伴者，也常写作 PP 或 companion；「陪聊」指交流日常的服务方式。语音适合想听见声音的时候，视频增加面对面互动。服务关系与私人承诺应当清楚区分。 Matcha 陪玩是什么体验？ 「陪玩」通常指一边游玩、一边语音互动的线上陪伴方式。Matcha 的陪伴介绍聚焦华语语音与视频交流；服务档案会清楚介绍每种互动的内容与边界。 马来西亚用户怎样选择陪陪？ 先看语言、介绍和服务类型。华语、英语和粤语的实际供应以正式档案为准。吉隆坡、槟城、新山及其他地区的用户都应先确认线上时段、设备和通话方式。 cha 怎样计费？ 页面以 200 cha / 小时作为展示用默认价格，不提供充值或扣费。正式开放前会说明服务时长、总点数、RM 兑换比例、取消与退款规则。 Privacy-first 和 E2E 分别是什么？ Privacy-first 是隐私优先的设计方向，包括尊重个人边界和谨慎处理资料。E2E 是端到端加密的简称，属于具体技术能力；Matcha 的 E2E 加密适用于 Matcha 私聊；语音或视频通话的加密方式应分别查看其服务说明。 现在可以预约吗？ 账户、预约、充值与招募尚未开放。你可以浏览平台介绍，阅读 隐私与 E2E 加密私聊 以及 cha 点数说明 ，正式入口以本网站公布为准。 认识 Matcha 陪陪 ↗

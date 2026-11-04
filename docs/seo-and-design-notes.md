@@ -32,4 +32,4 @@ ReVisit's referenced chat established the local landing implementation. The exis
 - Operating entity, full privacy/contact information and service terms.
 - Actual credit-to-RM conversion, billing, payment channels, cancellation/refund and companion settlement terms.
 
-The owner subsequently authorized publishing the landing preview under Tanwyhang’s personal Vercel scope and supplied matcha.talk. The page is now publicly indexable at that origin, with valid DNS/TLS and a www-to-apex redirect. Product capabilities remain clearly labeled as preview/planned until their implementation is confirmed. See vercel-deployment.json for the verified release state.
+The owner subsequently authorized publishing the landing preview under Tanwyhang’s personal Vercel scope and supplied matcha.talk. The page is now publicly indexable at that origin, with valid DNS/TLS and a www-to-apex redirect. The landing page remains a product showcase; the owner confirmed E2E private chat is implemented, while call encryption is documented separately. See vercel-deployment.json for the verified release state.

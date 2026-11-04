@@ -42,8 +42,8 @@
       "@type": "AboutPage",
       "@id": "https://matcha.talk/privacy/#webpage",
       "url": "https://matcha.talk/privacy/",
-      "name": "Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密规划",
-      "description": "了解 Matcha Malaysia 陪陪与陪聊平台的 Privacy-first 隐私设计、E2E 加密私聊规划，以及语音、视频通话和个人边界。当前网站不提供实时通话或消息传输。",
+      "name": "Matcha Talk 隐私优先｜Privacy-first 与 E2E 加密私聊",
+      "description": "了解 Matcha Malaysia 的 Privacy-first 隐私设计与 E2E 加密私聊，认识语音、视频通话各自的隐私范围与个人边界。",
       "dateModified": "2026-11-05",
       "inLanguage": "zh-MY",
       "isPartOf": {

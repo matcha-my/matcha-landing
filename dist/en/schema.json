@@ -93,7 +93,7 @@
           "name": "What do privacy-first and E2E encryption mean?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Privacy-first means treating personal privacy and boundaries as product design priorities. E2E encryption aims to keep message content readable only at the participating endpoints. Matcha E2E chat is planned; messaging and call protection scopes will be explained separately before launch."
+            "text": "Privacy-first means treating personal privacy and boundaries as product design priorities. Matcha private chat uses E2E encryption so message content is readable only at the participating endpoints. Voice and video calls have separate protection scopes."
           }
         },
         {
