@@ -213,3 +213,11 @@
 .edition-three .hero-country-flags>span{display:block;width:44px;padding:0;border:0;border-radius:0;background:none;box-shadow:0 2px 7px #251c3512}
 .edition-three .hero-country-flags svg{display:block;width:100%;height:auto}
 @media(max-width:680px){.edition-three .hero-country-flags{gap:14px}.edition-three .hero-country-flags>span{width:38px}}
+.launch-promo{position:relative;overflow:hidden;margin:14px 0 0;padding:8px 0;background:#f4eaff;border-block:1px solid #e9d9fb;color:#713ac1;font-size:13px;font-weight:800;line-height:1.25}
+.launch-promo-track{display:flex;width:max-content;animation:launch-promo-scroll 30s linear infinite;will-change:transform}
+.launch-promo-group{display:flex;align-items:center;flex-shrink:0;gap:64px;padding-right:64px}
+.launch-promo-group>span{white-space:nowrap;letter-spacing:.07em}.launch-promo b{color:#e42d8b;font-size:1.12em}
+.launch-promo:hover .launch-promo-track{animation-play-state:paused}
+@keyframes launch-promo-scroll{to{transform:translateX(-50%)}}
+@media(max-width:680px){.launch-promo{margin-top:10px;font-size:11px;padding:7px 0}.launch-promo-group{gap:38px;padding-right:38px}}
+@media(prefers-reduced-motion:reduce){.launch-promo-track{animation:none;transform:none}.launch-promo-group[aria-hidden=true]{display:none}}
