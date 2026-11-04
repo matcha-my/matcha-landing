@@ -43,8 +43,8 @@
       "@id": "https://matcha.talk/#webpage",
       "url": "https://matcha.talk/",
       "name": "Matcha Talk｜马来西亚陪陪・陪聊平台，语音与视频",
-      "description": "Matcha Talk（Matcha Malaysia）是面向马来西亚的中文陪陪与陪聊平台，专注华语语音与视频陪伴。Privacy-first 隐私优先，E2E 加密私聊规划中；游戏陪玩暂未开放。",
-      "dateModified": "2026-11-04",
+      "description": "Matcha Talk（Matcha Malaysia）面向马来西亚华语用户，介绍陪陪与陪聊服务，聚焦线上语音与视频陪伴。以 Privacy-first 隐私优先为设计方向，让每一次交流更自在。",
+      "dateModified": "2026-11-05",
       "inLanguage": "zh-MY",
       "isPartOf": {
         "@id": "https://matcha.talk/#website"
@@ -69,7 +69,7 @@
           "name": "Matcha Talk 是什么？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Matcha Talk（Matcha Malaysia）是面向马来西亚成年用户的中文陪陪与陪聊平台，以 Privacy-first 隐私优先为设计方向，专注语音与视频陪伴。当前网站展示平台概念与档案，正式预约尚未开放。"
+            "text": "Matcha Talk（Matcha Malaysia）是面向马来西亚成年用户的中文陪陪与陪聊平台，以 Privacy-first 隐私优先为设计方向，专注语音与视频陪伴。页面介绍 Matcha 的陪伴方式与服务档案，帮助用户认识适合自己的互动。"
           }
         },
         {
@@ -77,7 +77,7 @@
           "name": "Matcha 陪陪与 Matcha 陪聊有什么区别？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "陪陪是陪伴者的称呼，陪聊是互动方式。你可以在 Matcha 认识适合自己的华语陪陪，通过语音或视频交流日常；具体服务、时长和费用以正式开放后的说明为准。"
+            "text": "陪陪是陪伴者的称呼，陪聊是互动方式。你可以在 Matcha 认识适合自己的华语陪陪，通过语音或视频交流日常；服务方式、时长与费用会在陪伴档案中清楚说明。"
           }
         },
         {
@@ -85,7 +85,7 @@
           "name": "Matcha 陪玩可以一起打游戏吗？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "目前 Matcha 专注语音与视频通话，游戏陪玩服务暂未开放。搜索 Matcha 陪玩时，请以本网站的实际服务说明为准，不要把陪聊档案当作已开放的游戏陪玩服务。"
+            "text": "陪玩通常指游戏过程中的陪伴与语音互动。Matcha 聚焦线上交流体验，陪伴档案会清楚标明语音、视频及其他互动方式。"
           }
         },
         {
@@ -101,7 +101,7 @@
           "name": "在马来西亚怎样使用 Matcha Malaysia？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Matcha 面向吉隆坡、槟城、新山及全马线上用户，以中文介绍为主，并提供英文页面。你可以先浏览语音与视频陪陪；账户、预约、充值与招募入口会在正式开放时公布。"
+            "text": "Matcha 面向吉隆坡、槟城、新山及全马线上用户，以中文介绍为主，并提供英文页面。浏览服务介绍时，可关注互动方式、时长、cha计费与个人边界。"
           }
         }
       ]

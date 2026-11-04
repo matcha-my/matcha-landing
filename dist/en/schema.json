@@ -43,8 +43,8 @@
       "@id": "https://matcha.talk/en/#webpage",
       "url": "https://matcha.talk/en/",
       "name": "Matcha Talk Malaysia | Privacy-first Voice & Video Companions",
-      "description": "Meet Matcha Talk Malaysia, a Chinese-first companion platform for adults. Explore voice and video companionship, privacy-first design and planned E2E chat.",
-      "dateModified": "2026-11-04",
+      "description": "Matcha Talk is a Malaysia-focused Chinese companion platform for voice and video conversations, built around a privacy-first experience for relaxed online connections.",
+      "dateModified": "2026-11-05",
       "inLanguage": "en-MY",
       "isPartOf": {
         "@id": "https://matcha.talk/#website"
@@ -69,7 +69,7 @@
           "name": "What is Matcha Talk?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Matcha Talk, also called Matcha Malaysia, is a Chinese-first companion platform for adults in Malaysia. Its privacy-first design focuses on voice and video companionship. This website presents the platform and illustrative profiles; booking is not open yet."
+            "text": "Matcha Talk, also called Matcha Malaysia, is a Chinese-first companion platform for adults in Malaysia. Its privacy-first design focuses on voice and video companionship. Explore the platform’s companion styles and service profiles to find an interaction that fits your preferences."
           }
         },
         {
@@ -77,7 +77,7 @@
           "name": "What do Matcha PP and companion chat mean?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PP refers to a companion, while companion chat describes a way to interact. Matcha is designed for Mandarin voice and video conversations. Service details, duration and pricing will be confirmed before booking opens."
+            "text": "PP refers to a companion, while companion chat describes a way to interact. Matcha is designed for Mandarin voice and video conversations. Each profile explains the interaction style, duration and cha pricing clearly."
           }
         },
         {
@@ -85,7 +85,7 @@
           "name": "Does Matcha offer gaming companions?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Gaming companionship is not currently available. Matcha currently focuses on voice and video calls. Searches for Matcha gaming or Matcha 陪玩 should be checked against the services actually described on this website."
+            "text": "Gaming companionship describes shared play and voice interaction. Matcha focuses on online conversation, with profiles identifying the interaction styles they offer."
           }
         },
         {
@@ -101,7 +101,7 @@
           "name": "Who is Matcha Malaysia for?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Matcha is designed for adults across Malaysia, including Kuala Lumpur, Penang and Johor Bahru. Chinese is the default language, with an English introduction. Accounts, bookings, payments and recruitment are not open yet."
+            "text": "Matcha is designed for adults across Malaysia, including Kuala Lumpur, Penang and Johor Bahru. Chinese is the default language, with an English introduction. Explore service styles, interaction details, duration and cha pricing across the platform."
           }
         }
       ]
