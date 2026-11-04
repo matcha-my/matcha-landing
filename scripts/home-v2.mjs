@@ -9,6 +9,7 @@ const specs=[
  ['Celine','voice','今晚聊久一点','Stay a little longer','华语 · English'],['Belle','video','见面说 hello','Face-to-face hello','华语 · English'],['Venus','voice','你的专属树洞','Tell me everything','华语 · 粤语'],['Eve','voice','好声音，好心情','Your favourite voice','华语 · English']
 ];
 const profilesByName=new Map(specs.map(([name,type,zh,en,languages],i)=>[name,{name,type,zh,en,mood:zh,moodEn:en,tags:languages.split(' · '),enTags:languages.replace('华语','Mandarin').replace('粤语','Cantonese').split(' · '),image:i<3?`/assets/pp-studio-v6-${String(i+1).padStart(2,'0')}.webp`:`/assets/pp-iphone-v5-${String(i+1).padStart(2,'0')}.webp`,color:'lilac'}]));
+profilesByName.get('Yuna').image='/assets/pp-yuna-v7.webp';
 // Swap only the approved portraits; preserve each profile's name and services.
 const xiaoqing=profilesByName.get('小晴'),belle=profilesByName.get('Belle');
 [xiaoqing.image,belle.image]=[belle.image,xiaoqing.image];
